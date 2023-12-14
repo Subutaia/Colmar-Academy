@@ -7,7 +7,7 @@
 :root {
     --dark-grey: #3c3b3d
     --light-grey: #8e8e8e
-    --lighter-grey: ##dfdfdf
+    --lighter-grey: #dfdfdf
     --lightest-grey: #e9e9e9
 }
 
@@ -32,7 +32,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: var(--dark-grey);
+    color: #3c3b3d;
 }
 
 .logo {
@@ -45,12 +45,12 @@ nav a {
 .logo > p {
     display: inline;
     font-weight: bold;
-    color: var(--dark-grey);
+    color: #3c3b3d;
 }
 
 .logo > span {
     font-weight: medium;
-    color: var(--light-grey);
+    color: #8e8e8e;
 }
 
 .mobile-nav {
@@ -59,13 +59,13 @@ nav a {
 
 /*Learn Something New*/
 .Learn-Something-New {
-    background-color: var(--lighter-grey);
+    background-color: #dfdfdf;
     display: flex;
     padding: 5% 3%;
 }
 
 .Learn-Something-New button {
-    background-color: var(--dark-grey);
+    background-color: #3c3b3d;
     width: 100%;
     height: 3rem;
     cursor: pointer;
@@ -86,7 +86,7 @@ nav a {
 
 .right1 > h1, h4 {
     padding: 5%;
-    color: var(--dark-grey);
+    color: darkgray;
 }
 
 .right1 a {
@@ -99,7 +99,7 @@ nav a {
 .It-doesnt-hurt {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    color: var(--dark-grey);
+    color: #3c3b3d;
 }
 
 .left2 {
@@ -148,7 +148,7 @@ nav a {
 
 .orientation, .campus, .guest {
     display: flex;
-    border: 1px solid var(--lighter-grey);
+    border: 1px solid #dfdfdf;
     padding: 2%;
 }
 
@@ -163,20 +163,20 @@ nav a {
 }
 
 .guest {
-    background-color: var(--lighter-grey);
+    background-color:#8e8e8e;
     margin: 0 0 2% 0;
 }
 
 /*Start Learning*/
 
 .Start-Learning {
-    background-color: var(--lightest-grey);
+    background-color: #e9e9e9;
     padding: 2% 5% 8% 5%;
 }
 
 .Start-Learning > h1 {
     text-align: center;
-    color: var(--dark-grey);
+    color: #3c3b3d;
     padding: 4%;
 }
 
@@ -210,18 +210,45 @@ nav a {
 
 .sl-info > p {
     font-size: small;
-    color: var(--light-grey);
+    color: #8e8e8e;
 }
 
 /*Thesis*/
 
-.Thesis > h1 {
-    color: var(--dark-grey);
-    text-align: center;
-    padding: 5%;
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-}
+
 
 /*Urban*/
 
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #8e8e8e;
+    margin-bottom: 1%;
+}
+
+footer > * {
+    font-size: small;
+    color: #3c3b3d;
+    margin-top: 0;
+    padding-top: 0.5%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3c3b3d;
+}
+
+footer li {
+    padding: 0 1em;
+}
+
+/*Mobile Responsiveness*/
