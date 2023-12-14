@@ -166,3 +166,62 @@ nav a {
     background-color: var(--lighter-grey);
     margin: 0 0 2% 0;
 }
+
+/*Start Learning*/
+
+.Start-Learning {
+    background-color: var(--lightest-grey);
+    padding: 2% 5% 8% 5%;
+}
+
+.Start-Learning > h1 {
+    text-align: center;
+    color: var(--dark-grey);
+    padding: 4%;
+}
+
+/*Start Learning Grid*/
+
+.sl-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3. 1fr);
+    grid-gap: 2%;
+}
+
+.sl-grid-wrapper img {
+    width: 100%;
+}
+
+/*Start Learning Individual Card*/
+
+.sl-grid-wrapper > * {
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-info {
+    background-color: white;
+    padding: 5%;
+}
+
+.sl-info > * {
+    padding: 3% 0;
+}
+
+.sl-info > p {
+    font-size: small;
+    color: var(--light-grey);
+}
+
+/*Thesis*/
+
+.Thesis > h1 {
+    color: var(--dark-grey);
+    text-align: center;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+
+/*Urban*/
+
