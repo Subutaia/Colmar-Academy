@@ -184,7 +184,7 @@ nav a {
 
 .sl-grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(3. 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
 }
 
@@ -215,11 +215,76 @@ nav a {
 
 /*Thesis*/
 
+.Thesis > h1 {
+    color: #8e8e8e;
+    text-align: center;
+    padding: 5%;
+}
+
+.thesis-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
 
 
 /*Urban*/
 
+.urban-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+}
 
+.urban-video > video {
+    width: 100%;
+}
+
+.urban-info {
+    padding: 1% 0 5% 0;
+}
+
+.urban-info > * {
+    padding: 1% 0;
+}
+
+.urban-info > p {
+    font-size: small;
+    color: #8e8e8e;
+}
+
+.thesis-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-right img {
+    width: 10rem;
+}
+
+.thesis-right p {
+    font-size: small;
+    color: #8e8e8e
+}
+
+.fisma, .Now-and-Then {
+    display: flex;
+    padding: 5%;
+}
+
+.fisma {
+    background-color: lightgray;
+}
+
+.Fisma-info, .Now-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Fisma-info > *, .Now-info > * {
+    padding: 1%;
+    margin: 5% 8%;
+}
 
 /*Footer*/
 
@@ -252,3 +317,20 @@ footer li {
 }
 
 /*Mobile Responsiveness*/
+
+@media only screen and (max-width: 580px) {
+    /*Navigation*/
+    nav > .logo, nav > ul {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        grid-gap: 70%;
+        margin: 2% 3%;
+    }
+
+    
+}
